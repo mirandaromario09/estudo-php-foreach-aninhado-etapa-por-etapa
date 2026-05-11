@@ -24,6 +24,3 @@ php index.php
 
 Ou abra o arquivo em um servidor local (XAMPP / Apache).
 
-## Licença
-
-Este projeto é de uso educacional.
