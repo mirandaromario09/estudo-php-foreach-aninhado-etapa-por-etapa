@@ -1,19 +1,29 @@
-# Estudo de PHP - Foreach
+# Estudo de Array + Foreach Aninhado em PHP
 
-Estudo sobre a estrutura foreach em PHP, abordando array indexado, associativo, multidimensional e foreach aninhado.
+Estudo prático de array multidimensional e `foreach` aninhado, com comentários passo a passo explicando cada etapa da execução.
 
-## Lógica do estudo
+## O que o estudo aborda
 
-- **Foreach básico**: percorrer array indexado com e sem exibir o índice
-- **Array associativo**: percorrer arrays com chaves em string (nome, idade, cidade)
-- **Array multidimensional**: percorrer array de arrays acessando cada chave interna
-- **Foreach aninhado**: um foreach dentro de outro para percorrer todos os níveis do array
-- **Foreach vs For**: diferença entre as duas estruturas de repetição
+- **Array multidimensional** — array contendo outros arrays (associativos)
+- **Foreach aninhado** — percorre o array principal e, dentro dele, percorre cada sub-array
+- **Explicação linha a linha** — comentários detalhados mostrando o que acontece em cada volta do loop
+- **Diferença entre array numérico e associativo** — quando usar cada um
 
-## Arquivos
+## Conceitos aplicados
 
-- `index.php` — Código com exemplos práticos de foreach
+- `foreach` simples vs `foreach` aninhado
+- `$chave => $valor` no foreach
+- Acesso a arrays multidimensionais
+- Interpolação de variáveis com `{}` e concatenação com `.`
 
----
+## Como executar
 
-[Ver online](https://mirandaromario09.github.io/2-)
+```bash
+php index.php
+```
+
+Ou abra o arquivo em um servidor local (XAMPP / Apache).
+
+## Licença
+
+Este projeto é de uso educacional.
